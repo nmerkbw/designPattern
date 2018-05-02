@@ -5,5 +5,8 @@ package com.jxs.simpleFactory;
  */
 public class OperationAdd extends Operation {
 
-
+    @Override
+    public double getResult() {
+        return 0;
+    }
 }

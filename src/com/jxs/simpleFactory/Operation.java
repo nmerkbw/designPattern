@@ -8,5 +8,5 @@ public abstract class Operation {
     private double numberA = 0.0;
     private double numberB = 0.0;
 
-    public double getResult;
+    public abstract double getResult();
 }
