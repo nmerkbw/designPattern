@@ -13,10 +13,10 @@ public class Decorator extends Component {
     }
 
     @Override
-    public void Operation() {
+    public void operation() {
 
         if (component != null) {
-            component.Operation();
+            component.operation();
         }
     }
 }

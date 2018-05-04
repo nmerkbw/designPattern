@@ -17,6 +17,6 @@ public class DecoratorClient {
         // 再用ConcreteDecoratorB的对象decoratorB包装decoratorA，最终执行Operation
         decoratorA.setComponent(concreteComponent);
         decoratorB.setComponent(decoratorA);
-        decoratorB.Operation();
+        decoratorB.operation();
     }
 }

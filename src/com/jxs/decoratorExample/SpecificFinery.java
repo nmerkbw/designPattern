@@ -3,9 +3,6 @@ package com.jxs.decoratorExample;
 /**
  * Created by jiangxs on 2018/5/3.
  */
-//public class SpecificFinery {
-//}
-
 class TShirts extends Finery {
 
     @Override
