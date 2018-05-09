@@ -1,4 +1,4 @@
-package com.jxs.adapterExample;
+package com.jxs.adapterObjectExample;
 
 /**
  * Created by jiangxs on 2018/5/9.
