@@ -5,20 +5,23 @@ package com.jxs.adapterExample;
  */
 public class Forwards extends Player {
 
+    private String name;
+
     public Forwards(String name) {
 
         super(name);
+        this.name = name;
     }
 
     @Override
     public void attack() {
 
-        System.out.println("前锋进攻！");
+        System.out.println("前锋 " + name + " 进攻！");
     }
 
     @Override
     public void defense() {
 
-        System.out.println("前锋进攻！");
+        System.out.println("前锋 " + name + " 进攻！");
     }
 }

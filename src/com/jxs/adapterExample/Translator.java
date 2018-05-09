@@ -5,22 +5,23 @@ package com.jxs.adapterExample;
  */
 public class Translator extends Player {
 
-    private ForeignCenter ym = new ForeignCenter();
+    private ForeignCenter foreignCenter = new ForeignCenter();
 
     public Translator(String name) {
 
         super(name);
+        foreignCenter.setName(name);
     }
 
     @Override
     public void attack() {
 
-        ym.jinGong();
+        foreignCenter.jinGong();
     }
 
     @Override
     public void defense() {
 
-        ym.fangShou();
+        foreignCenter.fangShou();
     }
 }
