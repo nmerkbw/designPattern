@@ -8,14 +8,14 @@ public class Client {
     public static void main(String[] args) {
 
         Context context = new Context();
-        String x = "x";
-        String y = "y";
-        String z = "z";
+        Variable x = new Variable("x");
+        Variable y = new Variable("y");
+        Constant a = new Constant(4);
 
         context.put(x, 2);
         context.put(y, 3);
-        context.put(z, 4);
 
-        Expression expression = new AddExpression
+        Expression expression = new AddExpression(new SubExpression(a, x), new SubExpression(y, x));
+        System.out.println(expression.toString() + "=" + expression.interpreter(context));
     }
 }
