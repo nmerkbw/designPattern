@@ -1,7 +1,7 @@
 package com.jxs.interpreter;
 
 /**
- * Created by jiangxs on 2018/5/12.
+ * Created by jiangxs on 2018/5/14.
  *
  * TerminalExpression类（终结符表达式）
  * 实现与文法中的终结符相关联的解释操作。实现抽象表达式中所要求的接口，
